@@ -26,9 +26,9 @@ const Header = component$(() => {
   );
 
   return (
-    <header class=" transition-[top] duration-200 fixed text-[#191919] top-0 left-0 z-20 w-full">
+    <header class=" transition-[top] duration-200 fixed text-[#191919] top-0 left-0 z-20 w-full" style="background:#fff">
       <div
-        class={`transition-[height] duration-200  lg:max-w-[1240px] flex items-center mx-auto  md:justify-between px-[15px] relative ${
+        class={`transition-[height] duration-200  container lg:max-[1280px] w-full flex bg-white items-center mx-auto  md:justify-between px-[15px] relative ${
           isScrolled.value ? "h-[70px] bg-white" : "h-[90px]"
         }`}
       >
