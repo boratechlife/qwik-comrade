@@ -18,7 +18,7 @@ const Header = component$(() => {
 
   useOnWindow(
     "scroll",
-    $((ev) => {
+    $(() => {
       const scroll = window.scrollY;
 
       isScrolled.value = scroll > 90;
